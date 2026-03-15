@@ -26,8 +26,8 @@ private struct MonitoringView: View {
 
             ForEach(0..<3, id: \.self) { i in
                 Circle()
-                    .stroke(.green.opacity(0.25), lineWidth: 1)
-                    .scaleEffect(pulsing ? 4 : 0.1)
+                    .stroke(.green.opacity(0.25), lineWidth: 2)
+                    .scaleEffect(pulsing ? 5 : 0.1)
                     .opacity(pulsing ? 0 : 0.6)
                     .animation(
                         .easeOut(duration: 4)
