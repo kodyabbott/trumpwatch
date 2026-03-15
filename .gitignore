@@ -1,0 +1,14 @@
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Build
+build/
+DerivedData/
+
+# Instruments traces
+*.trace/
+
+# Test notification payload
+test-notification.apns
