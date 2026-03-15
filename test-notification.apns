@@ -1,0 +1,10 @@
+{
+  "Simulator Target Bundle": "com.app.trumpwatch",
+  "aps": {
+    "alert": {
+      "title": "TrumpWatch",
+      "body": "President Donald J. Trump is no longer President of the United States."
+    },
+    "sound": "default"
+  }
+}
